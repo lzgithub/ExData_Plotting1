@@ -1,5 +1,3 @@
-setwd("C:/Users/liliz/Desktop/Coursera/Exploratory Data Analysis")
-
 ## Because the data file is very big, and only a small fraction of the data is 
 ## required for analysis,so the code reads the file by only selecting the rows 
 ## which meet the requirement for efficency. To do so, the first 10 rows of the 
