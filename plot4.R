@@ -1,5 +1,3 @@
-setwd("C:/Users/liliz/Desktop/Coursera/Exploratory Data Analysis")
-
 ## Because the data file is very big, and only a small fraction of the data is 
 ## required for analysis,so the code reads the file by only selecting the rows 
 ## which meet the requirement for efficency. To do so, the first 10 rows of the 
@@ -9,6 +7,7 @@ setwd("C:/Users/liliz/Desktop/Coursera/Exploratory Data Analysis")
 ## and 2007-2-2 23:59:00, therefore the exact number of minutes, i.e. number of 
 ## rows, can be calculated.
 
+# Data is in the working directory
 header <- read.table("household_power_consumption.txt",sep=";",na.strings = "?",
 	  header=TRUE, nrows=10)
 header
