@@ -7,6 +7,7 @@
 ## and 2007-2-2 23:59:00, therefore the exact number of minutes, i.e. number of 
 ## rows, can be calculated.
 
+# Data is in the working directory
 header <- read.table("household_power_consumption.txt",sep=";",na.strings = "?",
 	  header=TRUE, nrows=10)
 header
